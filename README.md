@@ -10,3 +10,6 @@ The steer function can be used to generate closed-loop forward simulations or to
 
 We study the properties of the new approach as extender for RRT and RRT* and compare it systematically to a spline-based approach and a large and small set of motion primitives. The results show that our approach generally produces smoother paths to the goal in less time with smaller trees. For RRT*, the approach produces also the shortest paths and achieves the lowest cost solutions when given more planning time
 
+## Implementations
+
+You will find the steer function in different directories implemented in different versions (MATLAB, C++ based on SMP library, C++ based on OMPL, Python).
