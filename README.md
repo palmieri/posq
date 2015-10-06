@@ -17,3 +17,8 @@ You will find the steer function in different directories implemented in differe
 * C++ implementation based on SMP library developed by Sertac Karaman (http://karaman.mit.edu/software.html). The ROS package https://github.com/srl-freiburg/srl_global_planner shows how to exploit it.
 * C++ based on OMPL, altough the OMPL library does not fully allow using a steer function, we have a preliminary version of the POSQ in OMPL. You can add POSQ as extension in your OMPL version (in the directory ompl/src/ompl/extensions). See in the demo folder the file RigidBodyPlanningWithSteering.cpp for an example. Have a look also to the ompl forked in my github: https://github.com/palmieri/ompl .
 * Python (Work in progress)
+
+
+### Developers
+Any contribution to the software is welcome. Contact the current developers for any info: 
+* Luigi Palmieri (https://github.com/palmieri, palmieri(at)informatik.uni-freiburg.de), main contributor
