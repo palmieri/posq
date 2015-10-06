@@ -12,4 +12,8 @@ We study the properties of the new approach as extender for RRT and RRT* and com
 
 ## Implementations
 
-You will find the steer function in different directories implemented in different versions (MATLAB, C++ based on SMP library, C++ based on OMPL, Python).
+You will find the steer function in different directories implemented in different versions:
+* MATLAB
+* C++ implementation based on SMP library developed by Sertac Karaman (http://karaman.mit.edu/software.html). The ROS package https://github.com/srl-freiburg/srl_global_planner shows how to exploit it.
+* C++ based on OMPL, altough the OMPL library does not fully allow using a steer function, we have a preliminary version of the POSQ in OMPL. You can add POSQ as extension in your OMPL version (in the directory ompl/src/ompl/extensions). See in the demo folder the file RigidBodyPlanningWithSteering.cpp for an example. Have a look also to the ompl forked in my github: https://github.com/palmieri/ompl .
+* Python (Work in progress)
