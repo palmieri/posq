@@ -22,3 +22,4 @@ You will find the steer function in different directories implemented in differe
 ### Developers
 Any contribution to the software is welcome. Contact the current developers for any info: 
 * Luigi Palmieri (https://github.com/palmieri, palmieri(at)informatik.uni-freiburg.de), main contributor
+* Billy Okal (https://github.com/makokal, okal(at)informatik.uni-freiburg.de), python version contributor
